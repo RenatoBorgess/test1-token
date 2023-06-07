@@ -16,6 +16,10 @@ public class ArrayCreditCardService {
         reverse(copyOfCards);
         return copyOfCards;
     }
+    public CreditCard[] reverseArray(CreditCard[] cards) {
+        reverse(cards);
+        return cards;
+    }
 
 
     public void reverse(CreditCard[] cards) {

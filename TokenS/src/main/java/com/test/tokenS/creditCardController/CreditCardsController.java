@@ -17,5 +17,9 @@ public class CreditCardsController {
         return arrayCreditCardService.reverseNewArray(cards);
     }
 
+    @PostMapping("/arrayInPlace")
+    public CreditCard[] reverseArrayInPlace(@RequestBody CreditCard[] cards) {
+        return arrayCreditCardService.reverseArray(cards);
+    }
 
 }
